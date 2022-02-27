@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShebaXYZ.UserSignUpPageControler">
+   <children>
+      <Label layoutX="78.0" layoutY="263.0" prefHeight="479.0" prefWidth="355.0" />
+      <Label layoutX="74.0" layoutY="301.0" prefHeight="26.0" prefWidth="105.0" text="  PHONE :">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="362.0" prefHeight="30.0" prefWidth="97.0" text="Email :">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="362.0" prefHeight="30.0" prefWidth="97.0" text="Password:">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="429.0" prefHeight="30.0" prefWidth="117.0" text="First_Name:">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="495.0" prefHeight="30.0" prefWidth="145.0" text="Last_Name:">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="117.0" layoutY="120.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="298.0" style="-fx-background-radius: 10;">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Label layoutX="128.0" layoutY="136.0" prefHeight="43.0" prefWidth="277.0" text="HOSPITAL MANAGEMENT SYSTEM" textFill="#1a7cb9">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="52.0" layoutY="157.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="69.0" layoutY="157.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="85.0" layoutY="157.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="91.0" layoutY="221.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="466.0" layoutY="153.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="446.0" layoutY="153.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="backHome" layoutX="306.0" layoutY="609.0" mnemonicParsing="false" onAction="#backHomeOnAction" prefHeight="56.0" prefWidth="72.0" style="-fx-background-radius: 10;" text="BACK">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button layoutX="110.0" layoutY="208.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="314.0" style="-fx-background-radius: 10;" />
+      <Label layoutX="110.0" layoutY="208.0" prefHeight="43.0" prefWidth="314.0" text="  USER REGISTRATION FORM" textFill="#a41289">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Phone" layoutX="61.0" layoutY="331.0" prefHeight="30.0" prefWidth="165.0" />
+      <Label layoutX="78.0" layoutY="362.0" prefHeight="30.0" prefWidth="97.0" text="Email :">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="362.0" prefHeight="30.0" prefWidth="97.0" text="Password:">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="71.0" layoutY="392.0" prefHeight="30.0" prefWidth="165.0" />
+      <TextField fx:id="firstName" layoutX="71.0" layoutY="459.0" prefHeight="30.0" prefWidth="165.0" />
+      <TextField fx:id="lastName" layoutX="61.0" layoutY="532.0" prefHeight="30.0" prefWidth="165.0" />
+      <Label layoutX="71.0" layoutY="582.0" prefHeight="30.0" prefWidth="145.0" text="Join_Date:">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="117.0" layoutY="120.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="298.0" style="-fx-background-radius: 10;">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Label layoutX="128.0" layoutY="132.0" prefHeight="43.0" prefWidth="277.0" text="             SHEBAXYZ" textFill="#1a7cb9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="submit" layoutX="415.0" layoutY="603.0" mnemonicParsing="false" onAction="#submitOnAction" prefHeight="56.0" prefWidth="154.0" style="-fx-background-radius: 10;" text="SUBMIT" textFill="#ff00ae">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#d3978a" />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="password" layoutX="255.0" layoutY="392.0" prefHeight="30.0" prefWidth="175.0" />
+      <Circle fill="DODGERBLUE" layoutX="52.0" layoutY="157.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="69.0" layoutY="157.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="85.0" layoutY="157.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="91.0" layoutY="221.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="466.0" layoutY="153.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="446.0" layoutY="153.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <TextArea fx:id="joinDate" layoutX="66.0" layoutY="612.0" prefHeight="30.0" prefWidth="175.0" />
+   </children>
+</AnchorPane>
